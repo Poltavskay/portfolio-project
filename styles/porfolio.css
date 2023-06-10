@@ -57,23 +57,17 @@ p {
 }
 
 .btn-branding {
-    background:var(--brading-color);
+    background: #f5ed79;
     border-radius: 4px;
-    color: white;
+    color: blue;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
 }
 
-.weather-img {
-   height: 650px;
-   margin-left: 20px;
-
- 
-}
-
 .btn-branding-outline {
-    color: var(--brading-color);
+    color: blueviolet;
+    background-color: var(--secondary-color);
     border: 1px solid var(--brading-color);
     border-radius: 4px;
     font-size: 18px;
@@ -83,14 +77,27 @@ p {
 }
 
 .project-desciption {
-    padding: 60px 50px ;
+    padding: 60px 60px ;
     background-color: #f5ed79;
     
+   
 }
 
 .content {
     background-color: var(--secondary-color);
+
 }
+
+.project-img {
+    height: 500px;
+    width: 1000px;
+}
+
+.weather {
+    margin-left: 80px;
+   
+}
+
 
 @media (max-width: 900px) {
     h1 {
