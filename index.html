@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-     <title>Document</title>
+     <title>Porfolio site</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,6 +25,37 @@
     <link rel="stylesheet" href="styles/porfolio.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Galina Poltavskay</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
     <p>&#128075; Hi I am</p>
       <h1>Galina Poltavskay</h1>
@@ -37,7 +68,7 @@
     <div class="container">
    <div class="row mb-5">
      <div class="col d-none d-lg-block croissant">
-        <img src="images/croissant page.png" class="img-fluid  project-img" alt="">
+        <img src="images/croissant page.png" class="img-fluid  project-img" alt="Croissant">
      </div>
        <div class="col">
     <div class="project-desciption">
@@ -66,13 +97,13 @@
       </div>
       
       <div class="col d-none d-lg-block">
-        <img src="images/coffee.png" class="img-fluid project-img" alt="">
+        <img src="images/coffee.png" class="img-fluid project-img" alt="Coffee">
      </div>
        </div>
     </div> 
      <div class="row mb-5">
      <div class="col d-none d-lg-block weather">
-        <img src="images/Weather App.png" class="img-fluid project-img"  alt="">
+        <img src="images/Weather App.png" class="img-fluid project-img"  alt="Weather app">
      </div>
     <div class="col">
     <div class="project-desciption">
@@ -88,22 +119,26 @@
        </div>
     </div> 
     </div>
-    <footer class="footer-content">
-      <div class=" text-center mb-5 icon">
-       <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-telegram"></i>
-        <i class="fa-brands fa-facebook"></i>
+    <footer>
+     <footer class="footer" id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="social-icons">
+              <i class="fas fa-phone"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
         </div>
-        <div>
+      </div>
           <p>
-              <div class=" text-center mb-5">
+              <div class=" text-center mb-5 footer-content">
             Coded by Galina Poltavskay with
-            <a href="https://github.com/Poltavskay/portfolio-project"
-            >Open Source</a>
+            <a href="https://github.com/Poltavskay/portfolio-project">Open Source</a>
           </p>
         </div>
-
-    </footer>
-  </body>
+      </footer>
+     </body>
 </html>
