@@ -130,7 +130,7 @@ p {
     }
 
     h2 {
-        font-size: 44px;
+        font-size: 42px;
     }
 
     .hero {
@@ -145,6 +145,11 @@ p {
   .social-icons {
   flex: 1 0 auto;
   text-align: center;
+  margin: 5px 100px;
+  }
+
+  .footer-content {
+    margin: 5px 90px;
   }
 
 }
