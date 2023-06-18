@@ -42,7 +42,7 @@ p {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 
 .hero p {
@@ -80,7 +80,7 @@ p {
 font-family: var(--default-font-family);
 }
 
-.conten p {
+.content p {
   font-size: 14px;
 }
 
@@ -114,7 +114,7 @@ font-family: var(--default-font-family);
 }
 
 .project-desciption {
-    padding: 35px 60px ;
+    padding: 120px 60px ;
     background-color: #f5ed79;
     }
 
@@ -135,10 +135,10 @@ font-family: var(--default-font-family);
 }
 
 .logo {
-  max-height: 80px;
-  margin-right: 880px;
+  max-height: 40px;
+
 }
- 
+
 .navigation {
   background-color: #f5ed79;
 }
@@ -164,7 +164,7 @@ nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
-  
+   max-width: 100px;
   
 }
 
