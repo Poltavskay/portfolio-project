@@ -89,8 +89,8 @@ font-family: var(--default-font-family);
 }
 
 .coding-img {
-  max-width: 550px;
-  border-radius: 10px;
+  max-width: 300px;
+  border-radius: 20px;
 }
 
 .btn-branding {
